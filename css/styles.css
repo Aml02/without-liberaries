@@ -164,6 +164,8 @@ margin-top: 0;
 			background-color: #eee;
          }
 .sect-work p{padding: 20px; }
+/*
+=================================================================================*/
 .selt-container{background-color:#2ec3e3;
 	            background-size: cover;
 	            background-repeat: no-repeat;
@@ -176,63 +178,16 @@ margin-top: 0;
 
                 }
 
-.selt-img1{background-image:url(../images/selection/1.jpg);
-			width: 100%;height: 200px;
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-             background-size: cover;
-	         background-repeat: no-repeat;
-             }
-.selt-img1:hover{background-image:url(../images/selection/1.jpg);
-			width: 100%;height: 200px;
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-             background-size: cover;
-	         background-repeat: no-repeat;
-             
-             }
-
-
-.selt-img2{background-image:url(../images/selection/2.jpg);
-			width: 100%;height: 200px;
+ .img{width: 100%;height: 200px;
 			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
 			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
               background-size: cover;
 	         background-repeat: no-repeat;
-            
-             }
-.selt-img3{background-image:url(../images/selection/3.jpg);
-			width: 100%;height: 200px;
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-             background-size: cover;
-	         background-repeat: no-repeat;
-             
-             }
-.selt-img4{background-image:url(../images/selection/4.jpg);
-			width: 100%;height: 200px;
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-             background-size: cover;
-	         background-repeat: no-repeat;
-            
-             }
-.selt-img5{background-image:url(../images/selection/5.jpg);
-			width: 100%;height: 200px;
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-             background-size: cover;
-	         background-repeat: no-repeat;
-            
-             }
-.selt-img6{background-image:url(../images/selection/6.jpg);
-			width: 100%;height: 200px;
-			-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-			clip-path: polygon(0% 0%, 100% 0, 100% 60%, 60% 100%, 0% 100%);
-             background-size: cover;
-	         background-repeat: no-repeat;
-            
-             }
+	         opacity: 1;
+	         transition:all .6 ease-in-out
+}
+.img:hover{opacity: .8;}
+
 
 
 
@@ -242,6 +197,13 @@ margin-top: 0;
              position: absolute;
              top: 84%;
               left:90%;
+	          transition: all 1s ease-in-out;
+             }
+.selt-container a i:hover{
+	         color: #fff;
+             position: absolute;
+             top: 84%;
+             left:80%;
              }
 
 

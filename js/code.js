@@ -27,6 +27,26 @@ function topFunction() {
 =====================================================================================
 =====================================================================================
 */
+var imgSrc=[
+	"images/selection/1.jpg",
+	"images/selection/2.jpg",
+	"images/selection/3.jpg",
+	"images/selection/4.jpg",
+	"images/selection/5.jpg",
+	"images/selection/6.jpg"
+];
+var img=document.getElementsByClassName("img");
+for(var x=0;x<imgSrc.length;x++){
+for(var i=0;i <img.length;i++){
+	if(x==i){
+	img[i].style.backgroundImage="url("+imgSrc[x]+")";}
+}
+}
+
+/*
+=====================================================================================
+=====================================================================================
+*/
 var slideIndex = 1;
 showSlides(slideIndex);
 
