@@ -1,8 +1,8 @@
-var x= document.getElementById("top-nav");
+var y= document.getElementById("top-nav");
 function responsive(){
-	if(x.className==="nav-links"){
-		x.className+="open" ;
-	}else{x.className="nav-links";}}
+	if(y.className==="nav-links"){
+		y.className+="open" ;
+	}else{y.className="nav-links";}}
 /*
 =====================================================================================
 =====================================================================================
